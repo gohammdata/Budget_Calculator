@@ -46,3 +46,15 @@
         }
     }
 }
+
+.add-items-section {
+    display: flex;
+
+    //Horizontally and Vertically Center
+    justify-content: center;
+    align-items: center;
+
+    .add-items-container {
+        width: 680px;
+    }
+}
