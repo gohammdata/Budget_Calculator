@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { AddItemFormComponent } from './add-item-form/add-item-form.component';
 import { BudgetItemsListComponent } from './budget-items-list/budget-items-list.component';
+import { BudgetItemCardComponent } from './budget-items-list/budget-item-card/budget-item-card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BudgetItemsListComponent } from './budget-items-list/budget-items-list.
     LoginComponent,
     SignUpComponent,
     AddItemFormComponent,
-    BudgetItemsListComponent
+    BudgetItemsListComponent,
+    BudgetItemCardComponent
   ],
   imports: [
     BrowserModule,
