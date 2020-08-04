@@ -3,6 +3,18 @@
 .root{
     display: flex;
     width: 100%;
+    position: relative;
+    
+    .x-icon-button {
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        background-color: grey;
+        right: -17px;
+        border-radius: 50%;
+        top: -17px; // half of the height
+   
+    }
 
     .budget-item {
         display: flex;
@@ -15,9 +27,13 @@
         cursor: pointer;
 
         .description {
+            display: flex;
             flex-grow: 1;
             font-size: 18px;
             margin-left: 5px;
+
+            //Vertically center p tag
+            align-items: center;
         }
 
         .amount {
